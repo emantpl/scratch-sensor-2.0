@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 # Name of your blog (this will show up at the top of your page)
-name: Scratch Sensor 2.0
+title: Scratch Sensor 2.0
 
 # Short description (goes below the title)
 description: Android smartphone sensors to Scratch 2.0 @ ScratchX
