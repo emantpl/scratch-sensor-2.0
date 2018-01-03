@@ -4,10 +4,10 @@ Scratch Sensor 2.0 is an Android smartphone app that allows the user to access t
 
 ### What are the requirements of Scratch Sensor 2.0?
 
-- Works only at [ScratchX](http://scratchx.org)
-- the Android smartphone is now a webserver. So you have to enter the IP address of the smartphone in the scracth program.
+- works **only** at [ScratchX](http://scratchx.org)
+- the Android smartphone is now a webserver. So you have to enter the IP address of the smartphone in the Scratch program.
 - both the smartphone and the computer running ScratchX must be on the same wifi hub
-- supports multiple android smartphone
+- supports multiple android smartphones
 - the update rate is determined by the Android OS
 
 ### Sample Projects
