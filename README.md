@@ -24,7 +24,6 @@ Scratch Sensor 2.0 is an Android smartphone app that allows the user to access t
 
 Scratch Sensor 2.0 is currently **under development**. The version available in the app store is version 1.0.
 
-{% if page.comments %} 
 <div id="disqus_thread"></div>
 <script>
 
@@ -33,8 +32,9 @@ Scratch Sensor 2.0 is currently **under development**. The version available in 
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 /*
 var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+this.page.url = "https://emantpl.github.io/scratch-sensor-2.0/";
+// Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "1"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 */
 (function() { // DON'T EDIT BELOW THIS LINE
@@ -45,4 +45,4 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
+
