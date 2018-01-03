@@ -14,6 +14,8 @@ Scratch Sensor 2.0 is an Android smartphone app that allows the user to access t
 
 * Getting Started [start.sbx](http://scratchx.org/?url=https://emantpl.github.io/scratch-sensor-2.0/start.sbx)
 
+![Scratch Sensor](https://emantpl.github.io/scratch-sensor-2.0/scratch-sensor.png)
+
 ### ScratchX Extension
 
 [Scratch Sensor 2.0](http://scratchx.org/?url=https://emantpl.github.io/scratch-sensor-2.0/scratch_sensor.js)
