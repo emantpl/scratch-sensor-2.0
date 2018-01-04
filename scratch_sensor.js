@@ -102,7 +102,7 @@
     menus: {
       reporterData: ['step','tilt','position','ax','ay','az','light','compass','time']
     },
-    url: 'http://smartphonedaq.com/scratch-sensor.page'
+    url: 'https://emantpl.github.io/scratch-sensor-2.0/'
   };
 
   // Register the extension
