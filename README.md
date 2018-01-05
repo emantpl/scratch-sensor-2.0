@@ -1,4 +1,4 @@
-## Welcome to Scratch Sensor 2.0 Pages
+## Scratch Sensor 2.0
 
 Scratch Sensor 2.0 is an Android smartphone app that allows the user to access the Android smartphone sensors in ScratchX. It is completely rewritten from Scratch Sensor 1.0 as Scratch 1.4 and Scratch 2.0 have different protocols.
 
@@ -20,7 +20,7 @@ This note is intended for users familiar with Scratch 2.0.
 1. Press **Start**. When the server is running, a notification appears in the notification area of your Android phone. Note the **IP address**. In our example it is 192.168.1.6
 1. Click [start.sbx](http://scratchx.org/?url=https://emantpl.github.io/scratch-sensor-2.0/start.sbx) to load the **Getting Started Project** in ScratchX. .
 1. Set the addr variable in the project to the **IP address** you noted in step 2.
-1. Run the ScratchX project. When you tilt your phone, the tilt variable value is the same as shown on your phone. The time the data is accessed from the phone server is also displayed.
+1. Run the ScratchX project. When you tilt your phone, the tilt variable value is the same as shown on your phone. The time the data is accessed from the phone server is also displayed. The status of the phone web server is also available.
 1. You have sucessfully accessed the tilt sensor data from your Android phone. The tilt sensor is a composite sensor derived from the accelerometer sensor.
 1. Stop the ScratchX project.
 1. Click **Stop** on the Scratch Sensor app to stop the server. The notification will disappear.
@@ -33,9 +33,35 @@ This note is intended for users familiar with Scratch 2.0.
 
 [Scratch Sensor 2.0](http://scratchx.org/?url=https://emantpl.github.io/scratch-sensor-2.0/scratch_sensor.js)
 
+### Scratch Sensor App
+
+![Scratch Sensor App](scratch-sensor-a1.png)
+
+#### To turn on/off the server
+
+1. Click **Start** to start the server
+1. Notification will appear.
+1. IP address of the phone will be displayed.
+1. Click **Stop** to stop the server.
+
+#### Available Sensors
+
+Which of the following sensors are available depend on your phone hardware, Only those available will be displayed.
+
+* Accelerometer - x,y,z
+* Steps - step count
+* Tilt - angle of tilt in degrees
+* Position - feet, head (phone standing), front, back (phone lying)
+* Light - light intensity in lux
+* Compass - 0 North 180 South, in degrees
+
+#### Important Note
+
+Although the app need not be visible, the phone should be left turned on. Especially for Android versions from Marshmallow onwards, the doze function to extend battery life may turn off the sensors and server.
+
 ### Support or Contact
 
-Scratch Sensor 2.0 is currently **under development**. The version available in the app store is version 1.0.
+Support is via comments below. You may also [contact us](http://emant.com/149910.page) here.
 
 <div id="disqus_thread"></div>
 <script>
