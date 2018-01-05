@@ -92,7 +92,12 @@
         if (!$.isEmptyObject(cachedSensors[location])){
           cachedSensors[location] = {data: cachedSensors[location].data, time: cachedSensors[location].time, flag:false};
           val = getSensorData(cachedSensors[location].data, type);
-          } 
+          } else {
+            if (type=='status') {
+              // special case of server is not started
+              val = location + " server down"
+            }
+          }
         // console.log("server error",location,val);
         callback(val);
       }
