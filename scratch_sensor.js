@@ -1,15 +1,19 @@
-/* Extension for Scratch Sensor 2.0*/
-/* EMant Pte Ltd Dec 2018 */
+/* Extension for Scratch Sensor 2.0 */
+/* (c) Emant Pte Ltd Jan 2018 */
 
 
 (function(ext) {
   // Communicate with Android server
   var cachedSensors = {};
+  var server_status = "ok"; // This becomes true on server error
 
   // Get data based on sensor type
   function getSensorData(data, type) {
       var val = null;
       switch (type) {
+        case 'status':
+          val = server_status;
+          break;
         case 'time':
           val = data.time;
           break;
@@ -57,7 +61,7 @@
         // waiting for server result or delay timeout, read cache instead
         if (cachedSensors[location].flag || (Date.now()-cachedSensors[location].time<100)) {
           val = getSensorData(cachedSensors[location].data, type);
-          console.log("cache",location,val); 
+          // console.log("cache",location,val); 
           callback(val); 
           return;   
       }
@@ -75,32 +79,33 @@
       timeout: 1000,
       success: function(data) {
         // successful read from server
+        server_status = "ok";
         cachedSensors[location] = {data: data, time: Date.now(), flag:false};
         var val = getSensorData(data, type);
-        console.log("server",location,val);
+        // console.log("server",location,val);
         callback(val);
       },
       error: function (jqXHR, status, err) {
         // server error
+        server_status = location + " server down";
         var val = null;
         if (!$.isEmptyObject(cachedSensors[location])){
           cachedSensors[location] = {data: cachedSensors[location].data, time: cachedSensors[location].time, flag:false};
           val = getSensorData(cachedSensors[location].data, type);
           } 
-        console.log("server error",location,val);
+        // console.log("server error",location,val);
         callback(val);
       }
     });
   };
 
-
   // Block and block menu descriptions
   var descriptor = {
     blocks: [
-      ['R', '%m.reporterData in %s', 'getSensor', 'tilt', '192.168.1.6'],
+      ['R', '%m.reporterData in %s', 'getSensor', 'tilt', '192.168.1.1'],
     ],
     menus: {
-      reporterData: ['step','tilt','position','ax','ay','az','light','compass','time']
+      reporterData: ['step','tilt','position','ax','ay','az','light','compass','time','status']
     },
     url: 'https://emantpl.github.io/scratch-sensor-2.0/'
   };
