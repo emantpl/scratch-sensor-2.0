@@ -31,7 +31,7 @@ This note is intended for users familiar with Scratch 2.0.
 ### Sample ScratchX Projects
 
 * Getting Started [start.sbx](http://scratchx.org/?url=https://emantpl.github.io/scratch-sensor-2.0/start.sbx)
-* Reading sensor data from 2 smartphones [start.sbx](http://scratchx.org/?url=https://emantpl.github.io/scratch-sensor-2.0/2-scratch-sensors.sbx)
+* Reading sensor data from 2 smartphones [2-scratch-sensors.sbx](http://scratchx.org/?url=https://emantpl.github.io/scratch-sensor-2.0/2-scratch-sensors.sbx)
 
 ### ScratchX Extension
 
