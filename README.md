@@ -17,17 +17,21 @@ This note is intended for users familiar with Scratch 2.0.
 ![Scratch Sensor](https://emantpl.github.io/scratch-sensor-2.0/scratch-sensor.png)
 
 1. Install [Scratch Sensor 2.0](https://play.google.com/store/apps/details?id=com.emant.scroid) from the Google Play Store onto your Android phone. 
-1. Press **Start**. When the server is running, a notification appears in the notification area of your Android phone. Note the **IP address**. In our example it is 192.168.1.6
-1. Click [start.sbx](http://scratchx.org/?url=https://emantpl.github.io/scratch-sensor-2.0/start.sbx) to load the **Getting Started Project** in ScratchX. .
-1. Set the addr variable in the project to the **IP address** you noted in step 2.
-1. Run the ScratchX project. When you tilt your phone, the tilt variable value is the same as shown on your phone. The time the data is accessed from the phone server is also displayed. The status of the phone web server is also available.
-1. You have sucessfully accessed the tilt sensor data from your Android phone. The tilt sensor is a composite sensor derived from the accelerometer sensor.
-1. Stop the ScratchX project.
-1. Click **Stop** on the Scratch Sensor app to stop the server. The notification will disappear.
+2. Press **Start**. When the server is running, a notification appears in the notification area of your Android phone. Note the **IP address**. In our example it is 192.168.1.6
+3. Click [start.sbx](http://scratchx.org/?url=https://emantpl.github.io/scratch-sensor-2.0/start.sbx) to load the **Getting Started Project** in ScratchX. .
+4. Set the addr variable in the project to the **IP address** you noted in step 2.
+5. Run the ScratchX project. 
+   * When you tilt your phone, the tilt variable value is the same as shown on your phone. 
+   * The time the data is accessed from the phone server is also displayed. 
+   * The status of the phone web server is also available.
+6. You have sucessfully accessed the tilt sensor data from your Android phone. The tilt sensor is a composite sensor derived from the accelerometer sensor.
+7. Stop the ScratchX project.
+8. Click **Stop** on the Scratch Sensor app to stop the server. The notification will disappear.
 
 ### Sample ScratchX Projects
 
 * Getting Started [start.sbx](http://scratchx.org/?url=https://emantpl.github.io/scratch-sensor-2.0/start.sbx)
+* Reading sensor data from 2 smartphones [start.sbx](http://scratchx.org/?url=https://emantpl.github.io/scratch-sensor-2.0/2-scratch-sensors.sbx)
 
 ### ScratchX Extension
 
@@ -40,9 +44,9 @@ This note is intended for users familiar with Scratch 2.0.
 #### To turn on/off the server
 
 1. Click **Start** to start the server
-1. Notification will appear.
+1. Notification will appear. Tapping on the notification will bring the app to the foreground.
 1. IP address of the phone will be displayed.
-1. Click **Stop** to stop the server.
+1. Click **Stop** to stop the server. The notification will disappear. 
 
 #### Available Sensors
 
