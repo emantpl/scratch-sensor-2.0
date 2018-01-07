@@ -50,7 +50,7 @@ This note is intended for users familiar with Scratch 2.0.
 
 #### Available Sensors
 
-Which of the following sensors are available depend on your phone hardware, Only those available will be displayed.
+The app will display the sensors available in your phone.
 
 * Accelerometer - x,y,z
 * Steps - step count
@@ -61,7 +61,7 @@ Which of the following sensors are available depend on your phone hardware, Only
 
 #### Important Note
 
-Although the app need not be visible, the phone should be left turned on. Especially for Android versions from Marshmallow onwards, the doze function to extend battery life may turn off the sensors and server.
+Although the app need not be visible, the phone should be left turned on. The doze function to extend battery life introduced in Android versions from Marshmallow onwards may turn off the sensors and server.
 
 ### Support or Contact
 
