@@ -61,7 +61,7 @@ The app will display the sensors available in your phone.
 
 #### Important Note
 
-Although the app need not be visible, the phone should be left turned on. The doze function to extend battery life introduced in Android versions from Marshmallow onwards may turn off the sensors and server.
+Although the app need not be in the foreground, the screen should be left on. The doze mode to extend battery life introduced in Android versions from Marshmallow onwards may turn off the sensors and server.
 
 ### Support or Contact
 
