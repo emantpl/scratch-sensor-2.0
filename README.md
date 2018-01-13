@@ -4,7 +4,32 @@ Scratch Sensor 2.0 is an Android smartphone app that allows the user to access t
 
 This note is intended for users familiar with Scratch 2.0.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mCjISmFnTXc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<style>
+.video-holder {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.video-holder iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+
+<div class="video-holder">
+  <iframe width="560"
+          height="315" 
+          src="https://www.youtube.com/embed/mCjISmFnTXc?rel=0" 
+          frameborder="0" 
+          allowfullscreen></iframe>
+</div>
+
 
 ### What are the requirements of Scratch Sensor 2.0?
 
