@@ -78,7 +78,7 @@ This note is intended for users familiar with Scratch 2.0.
 
 #### Available Sensors
 
-The app will display the sensors available in your phone.
+The app will display the following sensors if they are available in your phone.
 
 * Accelerometer - x,y,z
 * Steps - step count
