@@ -1,6 +1,6 @@
 ## Scratch Sensor 2.0
 
-Scratch Sensor 2.0 is an Android smartphone app that enables the Scratch user to read the Android smartphone sensors data in ScratchX. On the [ScratchX](http://scratchx.org) website, you can play with Experimental Extensions to Scratch. This note is intended for users familiar with ScratchX.
+Scratch Sensor 2.0 is an Android smartphone app that enables the Scratch user to read the Android smartphone sensors data in [ScratchX](http://scratchx.org). ScratchX has Experimental Extensions which allows Scratch to connect to external hardware or web services. This note is intended for users familiar with Scratch.
 
 If you have updated from Scratch Sensor 1.0, note that Scratch Sensor 2.0 does not work with Scratch 1.4.
 
