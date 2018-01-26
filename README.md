@@ -65,6 +65,9 @@ If you have updated from Scratch Sensor 1.0, note that Scratch Sensor 2.0 does n
 
 [Scratch Sensor 2.0](http://scratchx.org/?url=https://emantpl.github.io/scratch-sensor-2.0/scratch_sensor.js)
 
+#### ScratchX URL
+`https://emantpl.github.io/scratch-sensor-2.0/scratch_sensor.js`
+
 ### Scratch Sensor App
 
 ![Scratch Sensor App](scratch-sensor-a1.png)
