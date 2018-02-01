@@ -60,6 +60,7 @@ If you have updated from Scratch Sensor 1.0, note that Scratch Sensor 2.0 does n
 * Getting Started [start.sbx](http://scratchx.org/?url=https://emantpl.github.io/scratch-sensor-2.0/start.sbx)
 * Read sensor data from 2 smartphones [2-scratch-sensors.sbx](http://scratchx.org/?url=https://emantpl.github.io/scratch-sensor-2.0/2-scratch-sensors.sbx)
 * Read Position sensor data (Bear video demo) [sensor-position.sbx](http://scratchx.org/?url=https://emantpl.github.io/scratch-sensor-2.0/sensor-position.sbx)
+* Scratch Sensor Mazeball [mazeball.sbx](http://scratchx.org/?url=https://emantpl.github.io/scratch-sensor-2.0/mazeball.sbx)
 
 ### ScratchX Extension
 
