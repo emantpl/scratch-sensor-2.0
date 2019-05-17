@@ -1,8 +1,8 @@
 class ScratchSensor {
     getInfo() {
         return {
-            "id": "NitroBlockAAA",
-            "name": "NitroBlockAAA",
+            "id": "ScratchSensor",
+            "name": "Scratch Sensor",
             "blocks": [{
                     "opcode": "substringy",
                     "blockType": "reporter",
