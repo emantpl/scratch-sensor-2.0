@@ -1,7 +1,7 @@
 /* Extension for Scratch Sensor 2.0 */
 /* beta for Scratch 3 */
 /* under development please do not use */
-/* (c) Emant Pte Ltd May 2019 */
+/* (c) Emant Pte Ltd 19 May 2019 */
 
 class ScratchSensor {
     getInfo() {
