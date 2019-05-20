@@ -4,7 +4,7 @@ Scratch Sensor 2.0 is an Android smartphone app that enables the Scratch user to
 
 If you have updated from Scratch Sensor 1.0, note that Scratch Sensor 2.0 does not work with Scratch 1.4.
 
-Scratch Sensor 2.0 does not work with Scratch 3. It works only with ScratchX. ScratchX and Scratch 3 extensions are incompatible.
+Scratch Sensor 2.0 does not work with Scratch 3. ScratchX and Scratch 3 extensions are incompatible.
 
 <style>
 .video-holder {
