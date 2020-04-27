@@ -102,6 +102,10 @@ Although the app need not be in the foreground, the screen should be left on. Th
 
 Support is via comments below. You may also [contact us](http://emant.com/149910.page) here.
 
+### Generate sensor data for Human Activity Recognition (HAR) 
+
+Human Activity Recognition (HAR) based on wearable sensor data aims to identify a person's actions, such as standing, sitting, jumping, and going up stairs, by using data from body-worn sensors. At [sensor-cloud.com](https://www.sensor-cloud.com/), use the Chrome browser on your Android phone to save the sensor data to Google sheets needed for HAR analysis.
+
 <div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
